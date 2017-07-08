@@ -47,11 +47,10 @@ $(function() {
             loadFeed(0, done); // loads entries
         });
 
-        it('there is at least a single .entry element within the .feed container', function(done) {
+        it('there is at least a single .entry element within the .feed container', function() {
             // Uncomment next line to verify that its the first
             // console.log($('.entry').html());
-            expect($('.entry').length).not.toBe(0); // checks if there is an element with entry class
-            done();
+            expect($('.feed .entry').length).not.toBe(0); // checks if there is an element with entry class
         });
     });
 
