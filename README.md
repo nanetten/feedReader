@@ -1,7 +1,6 @@
 This is Front-End Web Developer Nanodegree's 6th project, Feed Reader. 
 
-In this project I used:
-- Jasmine https://jasmine.github.io/2.1/introduction.html
+In this project I used Jasmine https://jasmine.github.io/2.1/introduction.html
 
 
 - SETUP 
